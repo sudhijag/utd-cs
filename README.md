@@ -1,5 +1,5 @@
 # old-work
-CSCE 1030, CSCE 1040, CS 2336, CS 3340, CS 3345, CS 4301, CS 4341, CS 4341, CS 4375, CS 5348, CS 6360, CS 6364, CS 6313 
+CSCE 1030, CSCE 1040, CS 2336, CS 3340, CS 3345, CS 4301, CS 4341, CS 4341, CS 4375, CS 5348, CS 6360, CS 6375, CS 6364, CS 6313 
 
 At UNT:
 CSCE1030 @ UNT: CompSci I 
@@ -14,7 +14,6 @@ CS4341: Digital Logic (Prof. Becker)
 CS4375: Machine Learning (Prof. Nagar)
 CS5348: Operating Systems (Prof. Yen)
 CS6360: Database Systems (Prof. Wu)
-
-To add:
+CS6375: Machine Learning (Prof. Schweitzer)
 CS6364: Artifical Intelligence (Prof. Schweitzer)
 CS6313: Statistical Methods (Prof. Chen)
