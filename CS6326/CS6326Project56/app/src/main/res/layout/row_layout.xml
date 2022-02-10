@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:textSize="25sp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:text="Score"
+        android:layout_weight="40"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:text="Date"
+        android:layout_width="0dp"
+        android:layout_weight="30"
+        android:layout_height="match_parent"
+        android:textSize="25sp"
+         />
+
+</LinearLayout>

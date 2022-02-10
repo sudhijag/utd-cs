@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Name"
+        android:minHeight="100dp" />
+
+    <EditText
+        android:id="@+id/Score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:hint="Score"
+        android:minHeight="100dp"
+        android:digits="0123456789."
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Score"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:hint="Date"
+        android:minHeight="100dp"
+        android:inputType="date"/>
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Date"
+        android:layout_weight="1"
+        android:minHeight="100dp"
+        android:text="Add"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

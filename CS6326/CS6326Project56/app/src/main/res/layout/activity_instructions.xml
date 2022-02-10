@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/InstructionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:minHeight="500dp"
+        android:text="Click the \n _______\n _______"
+        android:textSize= "75sp"/>
+
+    <Button
+        android:id="@+id/GtgButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/InstructionText"
+        android:minHeight="500dp"
+        android:text="Start Game"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize= "50sp"/>
+
+</RelativeLayout>

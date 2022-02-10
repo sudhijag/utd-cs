@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.myapplication.CustomView
+        android:id="@+id/gamearea"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_below="@id/correctclicked"
+        android:background="@drawable/myborder"/>
+
+    <TextView
+        android:id="@+id/gametimer"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@id/correctclicked"
+        android:text="0"
+        android:textSize="75sp" />
+
+    <TextView
+        android:id="@+id/correctclicked"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:text="0"
+        android:textSize="75sp" />
+</RelativeLayout>
