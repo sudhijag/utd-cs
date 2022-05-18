@@ -1,0 +1,5 @@
+image_path, label
+flowers_test/test_1.jpg, common daisy
+flowers_test/test_2.jpg, tulip
+flowers_test/test_3.jpg, tulip
+flowers_test/test_4.jpg, rose
